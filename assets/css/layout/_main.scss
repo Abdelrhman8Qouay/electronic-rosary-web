@@ -1,0 +1,25 @@
+
+
+main {
+
+    .location {
+        @extend .flex-center;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        .box {
+            background-color: rgb(34, 34, 34);
+            border: 1px solid white;
+
+            color: aliceblue;
+            padding: 20px;
+            @extend .rounded-lg;
+            @include font-custom(32px, 400);
+
+            @extend .flex-center;
+
+            flex: 1 0 47%;
+        }
+    }
+
+}

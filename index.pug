@@ -1,0 +1,14 @@
+doctype html
+include components/layouts/head
+
+
+- const cats = ['أذكار الصباح', "أذكار المساء", "أذكار الأستيقاظ", "أذكار النوم", "تسابيح مابعد الصلاة", "الصلاة على النبي"];
+
+body
+    include components/layouts/nav
+
+    main
+        div.location
+            each cat in cats
+                div(class="box")
+                    p= cat

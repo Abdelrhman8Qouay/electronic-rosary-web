@@ -1,0 +1,15 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    &::selection {
+        background-color: aqua;
+        color: black;
+    }
+}
+
+body {
+    background: rgb(0, 0, 0);
+    @extend .wh-screen;
+}

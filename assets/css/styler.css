@@ -1,0 +1,121 @@
+.flex-center, main .location .box, main .location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wh-full {
+  width: 100%;
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.wh-screen, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.center-margin {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-padding {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
+.rounded-md {
+  border-radius: 6px;
+}
+
+.rounded-lg, main .location .box {
+  border-radius: 10px;
+}
+
+.rounded-xl {
+  border-radius: 14px;
+}
+
+.text {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 13;
+  font-weight: 200;
+}
+
+.clear-btn {
+  border: none;
+  outline: none;
+}
+
+.btn_smash {
+  border: none;
+  padding: 10px;
+}
+.btn_smash .ico {
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: aqua;
+  color: black;
+}
+*::selection {
+  background-color: aqua;
+  color: black;
+}
+
+body {
+  background: rgb(0, 0, 0);
+}
+
+main .location {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+main .location .box {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid white;
+  color: aliceblue;
+  padding: 20px;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: initial;
+  font-style: initial;
+  flex: 1 0 47%;
+}/*# sourceMappingURL=styler.css.map */
