@@ -1,14 +1,15 @@
 doctype html
-include components/layouts/_head
+include ../components/layouts/_head
 
 
 - const cats = ['أذكار الصباح', "أذكار المساء", "أذكار الأستيقاظ", "أذكار النوم", "تسابيح مابعد الصلاة", "الصلاة على النبي"];
 
 body
-    include components/layouts/_nav
+    include ../components/layouts/_nav
 
     main
         div.location
             each cat in cats
                 div(class="box")
                     p= cat
+                    div(class="tag")
